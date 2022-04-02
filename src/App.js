@@ -12,17 +12,19 @@ const persons = [
   {name : "Pedro" , email : "pedro@email.com" , phone : "934584875"}
 ];
 
+const contacts = [];
+
+for (let i = 0; i < persons.length; i++) {
+  contacts.push(<Contact person = {persons[i]}/>)
+}
+
   return (
     <div>
       <h1 className="text-center">My contacts list 📱</h1>
 
       <div>
         <div id="container">
-          <Contact person = {persons[0]}/>
-          <Contact person = {persons[1]}/>
-          <Contact person = {persons[2]}/>
-          <Contact person = {persons[3]}/>
-          <Contact person = {persons[4]}/>
+          {contacts}
         </div>
       </div>
     </div>
