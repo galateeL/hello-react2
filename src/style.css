@@ -1,0 +1,25 @@
+body {
+    background-color: '#F6F6F6';
+    margin: 0 auto;
+    width: 300px;
+    font-family: Lato;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  .friend-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+  }
+  button {
+    background: rgb(235, 66, 66);
+    padding: 10px;
+    color: white;
+    border: none;
+  }
+  
