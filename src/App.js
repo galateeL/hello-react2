@@ -4,22 +4,15 @@ import './style.css';
 
 function App() {
   // write your HTML code here
-
+const emmanuel = {name:"Emmanuel", email:"manu@email.com", phone:"02 50 45 65 48"};
   return (
     <div>
       <h1 className="text-center">My contacts list 📱</h1>
 
       <div>
         <div id="container">
-          <Contact
-            name="Emmanuel"
-            email="emmanuel@email.com"
-            phone="552312354"
+          <Contact person = {emmanuel}
           />
-          <Contact name="Johana" email="johana@email.com" phone="92034902" />
-          <Contact name="Lucas" email="lucas@email.com" phone="234983499" />
-          <Contact name="Marie" email="marie@email.com" phone="238942384" />
-          <Contact name="Pedro" email="pedro@email.com" phone="934584875" />
         </div>
       </div>
     </div>
