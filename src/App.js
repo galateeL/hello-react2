@@ -14,9 +14,7 @@ const persons = [
 
 const contacts = [];
 
-for (let i = 0; i < persons.length; i++) {
-  contacts.push(<Contact person = {persons[i]}/>)
-}
+persons.forEach (element => contacts.push(<Contact person = {element}/>));
 
   return (
     <div>
